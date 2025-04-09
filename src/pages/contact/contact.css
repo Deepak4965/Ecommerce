@@ -1,0 +1,36 @@
+.contact{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact form{
+    max-width: 500px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.contact form input{
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+    border: 2px solid rgb(42, 45, 49);
+    color:rgb(42, 45, 49) ;
+    outline: none;
+}
+.contact form button{
+    padding: 10px 20px ;
+    background-color:rgb(42, 45, 49) ;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 1.05rem;
+}
+.contact form button:hover{
+    opacity: 0.8;
+}
